@@ -1,0 +1,49 @@
+{
+  "name": "react-booked-calendar",
+  "version": "0.0.1",
+  "description": "A calendar with timetable",
+  "scripts": {
+    "start": "node server.js",
+    "lint": "eslint src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ito-p/react-booked-calendar.git"
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "boilerplate",
+    "hot",
+    "reload",
+    "hmr",
+    "live",
+    "edit",
+    "webpack"
+  ],
+  "author": "Satoshi Ito <not.1010.number@gmail.com> (http://github.com/ito-p)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gaearon/react-booked-calendar/issues"
+  },
+  "homepage": "https://github.com/ito-p/react-booked-calendar",
+  "devDependencies": {
+    "babel-core": "^6.0.20",
+    "babel-eslint": "^4.1.3",
+    "babel-loader": "^6.0.1",
+    "babel-preset-es2015": "^6.0.15",
+    "babel-preset-react": "^6.0.15",
+    "babel-preset-stage-0": "^6.0.15",
+    "eslint": "^1.10.3",
+    "eslint-plugin-react": "^3.6.2",
+    "react-hot-loader": "^3.0.0-beta.1",
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.12.1"
+  },
+  "dependencies": {
+    "react": "^15.0.1",
+    "react-addons-css-transition-group": "^15.3.2",
+    "react-dom": "^15.0.1",
+    "underscore": "^1.8.3"
+  }
+}
