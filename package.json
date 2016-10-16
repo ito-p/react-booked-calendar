@@ -24,7 +24,7 @@
   "author": "Satoshi Ito <not.1010.number@gmail.com> (http://github.com/ito-p)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gaearon/react-booked-calendar/issues"
+    "url": "https://github.com/ito-p/react-booked-calendar/issues"
   },
   "homepage": "https://github.com/ito-p/react-booked-calendar",
   "devDependencies": {
