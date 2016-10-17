@@ -48,5 +48,6 @@ const styles = {
     width: '80px'
   },
   timeblocks: {
+    width: '80px'
   }
 }

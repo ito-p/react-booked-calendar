@@ -4,7 +4,8 @@
   "description": "A calendar with timetable",
   "scripts": {
     "start": "node server.js",
-    "lint": "eslint src"
+    "lint": "eslint src",
+    "build": "NODE_ENV='production' && webpack --config webpack.config.production.js"
   },
   "repository": {
     "type": "git",

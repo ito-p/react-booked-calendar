@@ -11,7 +11,7 @@ ReactDOM.render(
   rootEl
 );
 
-if (module.hot) {
+if (module.hot && process.env.NODE_ENV !== 'production') {
   module.hot.accept('./Calendar', () => {
     // If you use Webpack 2 in ES modules mode, you can
     // use <Calendar /> here rather than require() a <NextApp />.

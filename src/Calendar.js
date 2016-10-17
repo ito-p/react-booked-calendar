@@ -18,33 +18,34 @@ export default class Calendar extends Component {
       closeHour: 19,
       events: [
       {
-        startDate: new Date("2016-10-20 15:00:00"),
-        endDate: new Date("2016-10-20 16:00:00"),
+        startDate: new Date("2016/10/20 15:00:00"),
+        endDate: new Date("2016/10/20 16:00:00"),
         status: "open",
       },
       {
-        startDate: new Date("2016-10-20 16:00:00"),
-        endDate: new Date("2016-10-20 17:00:00"),
+        startDate: new Date("2016/10/20 16:00:00"),
+        endDate: new Date("2016/10/20 17:00:00"),
         status: "close",
       },
       {
-        startDate: new Date("2016-10-20 17:00:00"),
-        endDate: new Date("2016-10-20 18:00:00"),
+        startDate: new Date("2016/10/20 17:00:00"),
+        endDate: new Date("2016/10/20 18:00:00"),
         status: "close",
       },
       {
-        startDate: new Date("2016-10-21 18:00:00"),
-        endDate: new Date("2016-10-21 19:00:00"),
+        startDate: new Date("2016/10/21 18:00:00"),
+        endDate: new Date("2016/10/21 19:00:00"),
         status: "open",
       },
       {
-        startDate: new Date("2016-10-31 10:00:00"),
-        endDate: new Date("2016-10-31 11:00:00"),
+        startDate: new Date("2016/10/31 10:00:00"),
+        endDate: new Date("2016/10/31 11:00:00"),
         status: "close",
       },
     ]
     }
     this.state = _.defaults(_.pick(this.props, ...Object.keys(defaults)), defaults)
+    console.log(this.state)
   }
   render() {
     const {
