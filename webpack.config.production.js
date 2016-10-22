@@ -4,7 +4,7 @@ var webpack = require('webpack');
 module.exports = {
   devtool: 'eval',
   entry: [
-    './src/index'
+    './src/index.jsx'
   ],
   output: {
     path: path.join(__dirname, 'static'),
@@ -18,7 +18,7 @@ module.exports = {
   ],
   module: {
     loaders: [{
-      test: /\.js$/,
+      test: /\.jsx$/,
       loaders: ['babel'],
       include: path.join(__dirname, 'src')
     }]
