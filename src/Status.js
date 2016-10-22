@@ -5,7 +5,7 @@ export default class Status extends Component {
     const { status, number = 0 } = this.props
     switch(status) {
       case 'open': return (<span style={styles.sign}>◯</span>)
-      case 'least': return (<div style={styles.container}><span style={styles.sign}>△</span><span style={styles.number}>{number}</span></div>)
+      case 'least': return (<span style={styles.container}><span style={styles.sign}>△</span><span style={styles.number}>{number}</span></span>)
       case 'close': return (<span style={styles.sign}>×</span>)
       case 'none': return (<span style={styles.sign}>　</span>)
       default: return (<span style={styles.sign}>　</span>)
@@ -15,7 +15,8 @@ export default class Status extends Component {
 
 const styles = {
   container: {
-    position: 'relative'
+    position: 'relative',
+    display: 'inline-block'
   },
   sign: {
     fontSize: 24,

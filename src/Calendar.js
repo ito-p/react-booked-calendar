@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import Header from './Header'
 import NextPager from './pager/NextPager'
 import PrevPager from './pager/PrevPager'
+import Status from './Status'
 import Body from './Body'
 import _ from 'underscore'
 
@@ -94,6 +95,27 @@ export default class Calendar extends Component {
             closeHour={closeHour}
             events={events}
             />
+          <div style={styles.footerContainer}>
+            <div style={styles.footerItem}>
+              <Status
+                status='open'
+                />
+              <span style={styles.footerText}>空きあり</span>
+            </div>
+            <div style={styles.footerItem}>
+              <Status
+                status='least'
+                number={2}
+                />
+              <span style={styles.footerText}>残り２枠</span>
+            </div>
+            <div style={styles.footerItem}>
+              <Status
+                status='close'
+                />
+              <span style={styles.footerText}>空きなし</span>
+            </div>
+          </div>
         </div>
       </div>
     );
@@ -129,5 +151,23 @@ const styles = {
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'center'
+  },
+  footerContainer: {
+    display: 'flex',
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginTop: 10,
+  },
+  footerItem: {
+    display: 'flex',
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginRight: 20,
+    marginLeft: 20
+  },
+  footerText: {
+    marginLeft: 10
   }
+
 }
