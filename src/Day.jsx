@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 
-import Status from './Status'
-import * as color from './styles/color'
-
-import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
+import Status from './Status.jsx'
+import * as color from './styles/color.jsx'
 
 export default class Day extends Component {
 

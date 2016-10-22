@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 
-import Day from './Day'
-import * as color from './styles/color'
-import TimeAxis from './TimeAxis'
-import TimeTable from './TimeTable'
+import Day from './Day.jsx'
+import * as color from './styles/color.jsx'
+import TimeAxis from './TimeAxis.jsx'
+import TimeTable from './TimeTable.jsx'
 
 const SPAN = 30
 

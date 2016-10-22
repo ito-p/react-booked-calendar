@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
-import Grid from './Grid'
-import TimeBlock from './TimeBlock'
-import * as color from './styles/color'
+import Grid from './Grid.jsx'
+import TimeBlock from './TimeBlock.jsx'
+import * as color from './styles/color.jsx'
 
 export default class TimeTable extends Component {
   render() {

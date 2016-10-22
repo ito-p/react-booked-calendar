@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import * as color from './styles/color'
+import * as color from './styles/color.jsx'
 
 export default class Grid extends Component {
   render() {

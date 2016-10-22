@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import * as color from './styles/color'
+import * as color from './styles/color.jsx'
 
 const MARGIN_VERTICAL = 4
 const MARGIN_HORIZONTAL = 8

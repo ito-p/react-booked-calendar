@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 
-import Week from './Week'
+import Week from './Week.jsx'
 import _ from 'underscore'
 import lodash from 'lodash'
-import * as color from './styles/color'
+import * as color from './styles/color.jsx'
 
 export default class Body extends Component {
 

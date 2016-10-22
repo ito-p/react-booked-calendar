@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 
-import Header from './Header'
-import NextPager from './pager/NextPager'
-import PrevPager from './pager/PrevPager'
-import Status from './Status'
-import Body from './Body'
+import Header from './Header.jsx'
+import NextPager from './pager/NextPager.jsx'
+import PrevPager from './pager/PrevPager.jsx'
+import Status from './Status.jsx'
+import Body from './Body.jsx'
 import _ from 'underscore'
 
 export default class Calendar extends Component {
@@ -46,7 +46,6 @@ export default class Calendar extends Component {
     ]
     }
     this.state = _.defaults(_.pick(this.props, ...Object.keys(defaults)), defaults)
-    console.log(this.state)
   }
   render() {
     const {
